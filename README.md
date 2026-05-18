@@ -105,6 +105,7 @@ Dimension tables were used to organize crews, subcontractors, job types, and dat
 ---
 
 ## Repository Structure
+```
 Renovation-Operational-Intelligence/
 │
 ├── README.md
@@ -127,29 +128,32 @@ Renovation-Operational-Intelligence/
 │
 └── insights/
     └── business_insights.md
+```
 
 --- 
 
-## Key Business Insights
-Key findings from the analysis:
-- Kitchen renovations generated the highest revenue and labor utilization.
-- Some renovations generated the higher cost overruns and delays.
-- Labor costs varied significantly between crews.
-- Material waste patterns highlighted opportunities for operational savings.
-- Subcontractors performance varied in terms of quality and schedule reliability
-
-  ---
-
   ## Tools Used
-  Excel - initial data preparation and SQL query checking using pivot tables
+  Excel - initial data preparation and SQL query checking using pivot tables.
   MySQL Workbench - relational database management and SQL analysis
   Power BI - dashboard development and visualization
+
+---
+
+## Key Business Insights
+Key findings from the analysis:
+- Roofing renovations lead the business in revenue generation and labor utilization. However, severe cost overruns and schedule delays make it the least profitable sector, operating      at a low 17% margin.
+- Severe variance exists across labor teams. Crew C alone accounts for a disproportionate 42% of all project labor costs.
+- Tile Masters demonstrated top performance across all data metrics, achieving a 94% on time completion rate, a minimal 1.00-day average delay, and an outstanding 4.8/5.0 quality         rating
+-  Data patterns indicate noticeable material waste, identifying an immediate opportunity for operational cost savings.
 
   ---
  
  ## Recommendations
-Recurring cost overruns may suggest that cost estimates for these project types may be inaccurate or that additional materials and labor requirements are not fully captured during planning, which may be overcome by improving cost estimation models or incorporating historical project data when budgeting to help reduce financial variance.
-
+ - Review the bidding and estimation process for roofing renovations since high revenue is being wiped out by cost overruns. Add realistic buffers to roofing schedules to mitigate the current delays and protect profitability.
+- Recurring cost overruns may suggest that cost estimates for these project types may be inaccurate or that additional materials and labor requirements are not fully captured during planning, which may be overcome by improving cost estimation models or incorporating historical project data when budgeting to help reduce financial variance.
+- Maximise the business relationship with Tile Masters by routing high-priority, margin-critical contracts with them. Analyse their scheduling and logistical workflows to establish a benchmark standard for underperforming subcontractors.
+- Implement targeted inventory and material tracking protocols on job sites. Minimising material waste will directly improve the bottom-line profitability without requiring additional sales revenue.
+- Investigate the root cause behind Crew C's 42% cost share. Determine if this variance stems from overstaffing, extended overtime, complex project assignments, or inefficiency. Standardise performance baselines across all crews to balance expenditures.
 
 
    
